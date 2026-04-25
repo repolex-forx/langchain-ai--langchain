@@ -1,0 +1,59 @@
+[2026-04-25T08:49:32Z] === ENRICH ITERATION 6 START | repo=langchain-ai/langchain sha=402298e3 ===
+[2026-04-25T08:49:32Z] [iter=6] PHASE START: enrich repo=langchain-ai/langchain sha=402298e3 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/402298e3-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/402298e3761719ace9800fb744175f3f4f84544e.nq.gz
+[2026-04-25T08:49:32Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-04-25T08:52:37Z] [iter=6] AST store loaded triples=15689677 load_secs=178 mem_mb=1153 MB
+[2026-04-25T08:52:37Z] [iter=6] Step 2: Finding LSP targets mem_mb=1153 MB
+[2026-04-25T08:53:23Z] [iter=6] LSP targets found call_sites=81940 imports=19838 extends=2738 implements=0 secs=46
+[2026-04-25T08:53:31Z] [iter=6] Loaded checkpoint partial graph triples=196286
+[2026-04-25T08:54:16Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1153 MB
+[2026-04-25T08:55:55Z] [iter=6] Position index built positions=1080391 nodes_with_types=1416111 secs=99 mem_mb=3147 MB
+[2026-04-25T08:55:55Z] [iter=6] Step 3: Starting LSP resolution mem_mb=3147 MB already_completed_types=[] already_completed_files=239
+[2026-04-25T08:55:55Z] [iter=6] Resolving target type target_type=call_site count=81940
+[2026-04-25T08:55:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=0 resolved=0 errors=0 current=libs/community/tests/integration_tests/vectorstores/test_astradb.py
+[2026-04-25T09:10:15Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=1 resolved=55 errors=131 current=libs/community/langchain_community/vectorstores/sklearn.py
+[2026-04-25T09:14:57Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=25.4 files_done=2 resolved=85 errors=174 current=libs/community/langchain_community/vectorstores/tiledb.py
+[2026-04-25T09:23:03Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=33.5 files_done=3 resolved=148 errors=248 current=libs/community/tests/integration_tests/utilities/test_golden_query_api.py
+[2026-04-25T09:24:48Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=35.3 files_done=5 resolved=157 errors=264 current=libs/community/langchain_community/vectorstores/kinetica.py
+[2026-04-25T09:29:49Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=40.3 files_done=6 resolved=196 errors=310 current=libs/experimental/langchain_experimental/agents/agent_toolkits/pandas/base.py
+[2026-04-25T09:32:07Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=42.6 files_done=7 resolved=222 errors=331 current=libs/community/langchain_community/graphs/age_graph.py
+[2026-04-25T09:42:36Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=53.1 files_done=8 resolved=265 errors=427 current=libs/core/tests/unit_tests/tracers/test_langchain.py
+[2026-04-25T09:45:40Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=56.1 files_done=9 resolved=284 errors=455 current=libs/text-splitters/langchain_text_splitters/json.py
+[2026-04-25T09:47:39Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=58.1 files_done=10 resolved=298 errors=473 current=libs/core/tests/unit_tests/output_parsers/test_xml_parser.py
+[2026-04-25T09:49:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=60.3 files_done=11 resolved=305 errors=493 current=libs/community/langchain_community/tools/ainetwork/owner.py
+[2026-04-25T09:50:42Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=61.2 files_done=13 resolved=311 errors=501 current=libs/community/langchain_community/llms/clarifai.py
+[2026-04-25T09:52:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=62.9 files_done=14 resolved=320 errors=517 current=libs/community/langchain_community/graphs/graph_document.py
+[2026-04-25T09:55:51Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=66.3 files_done=16 resolved=342 errors=548 current=libs/community/langchain_community/chat_models/azureml_endpoint.py
+[2026-04-25T10:00:20Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=70.8 files_done=17 resolved=375 errors=589 current=templates/rag-semi-structured/rag_semi_structured/chain.py
+[2026-04-25T10:01:12Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=71.7 files_done=18 resolved=391 errors=597 current=libs/core/langchain_core/output_parsers/xml.py
+[2026-04-25T10:04:11Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=74.7 files_done=19 resolved=405 errors=624 current=libs/langchain/tests/unit_tests/output_parsers/test_json.py
+[2026-04-25T10:11:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=82.2 files_done=21 resolved=484 errors=680 current=libs/community/tests/integration_tests/chat_models/test_vertexai.py
+[2026-04-25T10:15:28Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=85.9 files_done=22 resolved=512 errors=714 current=libs/community/langchain_community/document_loaders/parsers/language/tree_sitter_segmenter.py
+[2026-04-25T10:18:13Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=88.7 files_done=23 resolved=532 errors=739 current=libs/core/langchain_core/callbacks/stdout.py
+[2026-04-25T10:19:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=89.6 files_done=24 resolved=535 errors=747 current=libs/partners/groq/langchain_groq/chat_models.py
+[2026-04-25T10:27:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=98.4 files_done=25 resolved=590 errors=828 current=libs/core/langchain_core/runnables/router.py
+[2026-04-25T10:30:01Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=100.5 files_done=26 resolved=605 errors=847 current=libs/community/langchain_community/document_loaders/notion.py
+[2026-04-25T10:38:25Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=108.9 files_done=28 resolved=612 errors=924 current=templates/neo4j-semantic-ollama/main.py
+[2026-04-25T10:44:51Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=115.3 files_done=30 resolved=667 errors=983 current=libs/core/langchain_core/runnables/base.py
+[2026-04-25T11:48:09Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=178.6 files_done=31 resolved=1017 errors=1556 current=libs/community/langchain_community/chat_models/huggingface.py
+[2026-04-25T11:50:32Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=181.0 files_done=32 resolved=1035 errors=1574 current=templates/nvidia-rag-canonical/ingest.py
+[2026-04-25T11:51:25Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=181.9 files_done=34 resolved=1046 errors=1582 current=libs/langchain/langchain/callbacks/tracers/logging.py
+[2026-04-25T12:09:04Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=199.5 files_done=36 resolved=1072 errors=1743 current=libs/core/langchain_core/document_loaders/blob_loaders.py
+[2026-04-25T12:09:43Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=200.2 files_done=37 resolved=1094 errors=1749 current=libs/core/langchain_core/sys_info.py
+[2026-04-25T12:14:28Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=204.9 files_done=39 resolved=1175 errors=1790 current=libs/community/langchain_community/embeddings/localai.py
+[2026-04-25T12:17:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=207.6 files_done=40 resolved=1186 errors=1814 current=libs/community/tests/integration_tests/document_loaders/test_pdf.py
+[2026-04-25T12:21:35Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=212.1 files_done=41 resolved=1248 errors=1855 current=libs/community/langchain_community/llms/friendli.py
+[2026-04-25T12:23:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=213.7 files_done=42 resolved=1262 errors=1870 current=libs/langchain/tests/unit_tests/agents/test_openai_functions_multi.py
+[2026-04-25T12:23:47Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=214.3 files_done=43 resolved=1272 errors=1875 current=libs/community/langchain_community/document_loaders/cassandra.py
+[2026-04-25T12:24:52Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=215.3 files_done=44 resolved=1276 errors=1885 current=libs/community/langchain_community/vectorstores/epsilla.py
+[2026-04-25T12:27:43Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=218.2 files_done=45 resolved=1304 errors=1911 current=libs/core/langchain_core/tracers/stdout.py
+[2026-04-25T12:34:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=224.5 files_done=46 resolved=1312 errors=1969 current=libs/community/langchain_community/agent_toolkits/zapier/toolkit.py
+[2026-04-25T12:34:41Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=225.2 files_done=47 resolved=1312 errors=1975 current=libs/experimental/langchain_experimental/tot/controller.py
+[2026-04-25T12:35:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=225.9 files_done=48 resolved=1315 errors=1982 current=libs/partners/voyageai/tests/unit_tests/test_rerank.py
+[2026-04-25T12:36:33Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=227.0 files_done=49 resolved=1318 errors=1992 current=libs/community/langchain_community/callbacks/uptrain_callback.py
+[2026-04-25T12:40:17Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=230.8 files_done=50 resolved=1338 errors=2026 current=libs/community/langchain_community/document_loaders/geodataframe.py
+[2026-04-25T12:46:26Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=236.9 files_done=52 resolved=1356 errors=2082 current=libs/community/langchain_community/tools/azure_cognitive_services/form_recognizer.py
+[2026-04-25T12:47:52Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=238.3 files_done=53 resolved=1366 errors=2095 current=libs/community/langchain_community/vectorstores/surrealdb.py
+[2026-04-25T12:49:40Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=292 new_files_this_iter=53 mem_mb=3147 MB
+[2026-04-25T12:49:40Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/402298e3761719ace9800fb744175f3f4f84544e.nq.gz triples=216619
+[2026-04-25T12:49:44Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-04-25T12:49:44Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=14408 elapsed_min=240.1 files_completed=292
