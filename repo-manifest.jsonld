@@ -6671,7 +6671,7 @@
       "git:hexsha": "4ac61670b283897dca3ff9aaba0a5eed80389b3d",
       "repolex:parseStatus": "parsed",
       "git:tagName": "v0.1.0",
-      "repolex:parsedAt": "2026-09-14T22:51:17.518505+00:00"
+      "repolex:parsedAt": "2026-09-14T22:58:34.124457+00:00"
     },
     {
       "@id": "https://repolex.ai/r/langchain-ai/langchain/commit/8840a8cc95179dd945b1f4ab9eb08e34318ed2f4",
