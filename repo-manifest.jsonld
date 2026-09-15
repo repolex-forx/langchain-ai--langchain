@@ -6327,8 +6327,9 @@
     {
       "@id": "https://repolex.ai/r/langchain-ai/langchain/commit/23566cbea98871bb45cc432730676457cfd59845",
       "git:hexsha": "23566cbea98871bb45cc432730676457cfd59845",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v0.0.339rc1"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.0.339rc1",
+      "repolex:parsedAt": "2026-09-15T13:20:37.289282+00:00"
     },
     {
       "@id": "https://repolex.ai/r/langchain-ai/langchain/commit/751226e067bc54a70910763c0eebb34544aaf47c",
